@@ -1,4 +1,4 @@
-💰 Personal Finance Tracker & Budgeting App
+ Personal Finance Tracker & Budgeting App
 A comprehensive web application designed to help users manage their finances efficiently. Track income and expenses, visualize spending habits, and stay within budget with an intuitive dashboard.
 
 Project Status
