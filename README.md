@@ -55,6 +55,9 @@ Advanced AI recommendations
 Monthly financial reports
 Improved UI design
 User authentication support
+Mobile app version
+Cloud deployment
+Advanced analytics dashboard
 <img width="1920" height="1008" alt="image" src="https://github.com/user-attachments/assets/4023d128-6771-48cc-9a31-b573261b0510" />
 <!-- Contribution done by Uday -->
 <!-- Contribution done by Mridul -->
