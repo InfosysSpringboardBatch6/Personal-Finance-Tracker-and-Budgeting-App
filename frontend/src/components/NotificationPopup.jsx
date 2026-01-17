@@ -2,7 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import axios from 'axios';
 import { AppContext } from '../context/AppContext';
 import { useContext } from 'react';
-
 const NotificationPopup = ({ isOpen, onClose }) => {
   const { usertoken, backend } = useContext(AppContext);
   const [notifications, setNotifications] = useState([]);
@@ -68,7 +67,7 @@ const NotificationPopup = ({ isOpen, onClose }) => {
       console.error('Error marking notification as read:', error);
     }
   };
-
+  // Marks a notification as read by updating backend and local state
   const markAllAsRead = async () => {
     try {
       const { data } = await axios.put(
@@ -200,6 +199,5 @@ const NotificationPopup = ({ isOpen, onClose }) => {
     </div>
   );
 };
-
 export default NotificationPopup;
 
